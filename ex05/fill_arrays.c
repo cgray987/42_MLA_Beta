@@ -6,11 +6,11 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/02 21:14:16 by marvin            #+#    #+#             */
-/*   Updated: 2024/07/02 21:50:17 by marvin           ###   ########.fr       */
+/*   Updated: 2024/07/02 21:52:24 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//creates right pointing pyramid for every other row
+//creates right sided pyramid for every other row
 void	fill_right(int size, char arr[64][64])
 {
 	int	i;
@@ -54,7 +54,7 @@ void	fill_left_bottom(int size, char left[64][64], int limit, int row)
 }
 
 //n = 4, size = 13
-//creates left pointed pyramid
+//creates left sided pyramid
 void	fill_left(int size, char left[64][64])
 {
 	int	i;
